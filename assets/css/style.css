@@ -1,0 +1,131 @@
+/* Universal selector*/
+*{ 
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    
+}
+
+body {
+    background-color: white;
+    margin:0px;
+
+}
+
+.header {
+ padding:20px;
+ background-color: gray;
+ /*display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;*/
+
+}
+ .header h1{
+    display:inline-block;
+    background-color: aquamarine;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.header nav{
+    margin-bottom:0;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+   
+}
+.header nav ul li{
+    display:inline-block;
+    font-size: 20px;
+
+}
+.header a {
+    padding: 5px;
+    color: green;
+       
+}
+
+.Hero-Image {
+    padding: 60px;
+    margin: 0px;
+    background-image: url("../images/port7.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+}
+
+.Hero-Image h2 {
+   padding: 12px; 
+float: right;
+font-size: 25px;;
+background-color: brown;
+}
+
+
+h2{
+
+    font-size: 50px;   
+}
+.aboutme {
+    background-color:darkgoldenrod;
+    padding: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    height:200px;
+    
+}
+.aboutme h2 {
+    display: inline;
+    font-family:serif;   
+    
+}
+.aboutme p{
+    
+    font-size: 25px;
+}
+.work{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-color:skyblue;
+
+}
+.work img{
+    height:300px;
+    display:inline-block;
+
+}
+.work h2{
+    display:inline;
+    font-family:serif;
+
+}
+.contactme{
+    padding: 35px;
+    background-color: khaki;
+    display: flex;
+    flex-direction:row;
+    flex:200;
+}
+.contctme h2{
+    display:inline;
+    font-family:serif;
+}
+
+.contactme ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 15px;
+    width: 100%; 
+}
+.contactme li a{
+    
+    font-size: 20px;
+    padding: 5px;
+    color:chocolate;
+    
+}
