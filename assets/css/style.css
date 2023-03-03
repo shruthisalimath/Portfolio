@@ -45,27 +45,38 @@ body {
     color: green;
        
 }
+        /*HERO-IMAGE SECTION*/
 
 .Hero-Image {
+   display:flex;
+    flex-wrap: wrap;
     padding: 60px;
     margin: 0px;
     background-image: url("../images/port7.jpg");
     background-size: cover;
     background-position: center;
     width:100%;
+    height:100%;
 }
-
-.Hero-Image h2 {
-   padding: 12px; 
-float: right;
-font-size: 25px;;
-background-color: brown;
+.subtitle { 
+    padding: 12px;  
+    background-color: brown;
+    display: flex;
+    margin-left: auto;
 }
+/* .Hero-Image h2 {
+    width:100%;
+    padding: 12px; 
+    font-size: 30px;;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-end;
+} */
 
 
 h2{
     font-family:serif;  
-    font-size: 50px;   
+    font-size: 30px;   
 }
 
     /*ABOUT ME SECTION*/
@@ -86,6 +97,7 @@ h2{
     display: flex;
     justify-content: right;
     padding-right: 20px;
+    font-size: 50px;
        
 }
 
