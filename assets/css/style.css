@@ -64,26 +64,49 @@ background-color: brown;
 
 
 h2{
-
+    font-family:serif;  
     font-size: 50px;   
 }
+
+    /*ABOUT ME SECTION*/
+
 .aboutme {
     background-color:darkgoldenrod;
-    padding: 30px;
+    padding: 10px;
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+   
+    
+}
+.title h2 {
+    margin-left: 40px;;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+       
+}
+
+.aboutme img{
     height:200px;
+   margin-left: 25%;
     
 }
-.aboutme h2 {
-    display: inline;
-    font-family:serif;   
-    
-}
-.aboutme p{
-    
+.content { 
+    display:flex;
+    flex-direction: wrap;
+    margin: 20px;
+    width: 75%;
+    border-left:5px solid;
+    border-color: black;
+    align-items: center;
+    padding: 20px;
     font-size: 25px;
 }
+
+
 .work{
     display: flex;
     flex-direction:row;
