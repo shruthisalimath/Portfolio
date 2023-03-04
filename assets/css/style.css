@@ -82,7 +82,7 @@ h2{
     /*ABOUT ME SECTION*/
 
 .aboutme {
-    background-color:darkgoldenrod;
+    background-color:bisque;
     padding: 10px;
     display:flex;
     flex-wrap: wrap;
@@ -117,11 +117,11 @@ h2{
     padding: 20px;
     font-size: 25px;
 }
-
+         /*WORK SECTION*/
 
 .work{
    
-    background-color:skyblue;
+    background-color:khaki;
     padding: 10px;
     display:flex;
     flex-wrap: wrap;
@@ -143,7 +143,6 @@ h2{
     
     
 }
-
 
 .work figcaption{
     font-size: 20px;
@@ -214,32 +213,45 @@ h2{
     
 }
 
+
+       /*FOOTER:CONTACT-ME Section*/
 .contactme
 {
-    padding: 35px;
-    background-color: khaki;
-    display: flex;
-    flex-direction:row;
-    flex:200;
+    background-color:darkgoldenrod;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
 }
-.contctme h2{
-    display:inline;
-    font-family:serif;
+
+.contact-content { 
+    display:flex;
+    flex-direction: wrap;
+    margin:15px;
+    margin-right: 25px;;
+    width: 75%;
+    border-left:5px solid;
+    border-color: black;
+    align-items: center;
+    padding:40px;
+    font-size: 25px;
+    
 }
 
 .contactme ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     list-style: none;
-    margin-left: 15px;
-    width: 100%; 
+    margin-left: 0px;
+   width:100%;
 }
 .contactme li a{
     
     font-size: 20px;
-    padding: 5px;
-    color:chocolate;
+    padding: 10px;
+    color:blueviolet;
     
 }
