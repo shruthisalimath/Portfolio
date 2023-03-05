@@ -8,7 +8,10 @@
 :root{
     --border-color:black;
     --primary-color:bisque;
-    --navlink--color:blueviolet;
+    --secondory-color:burlywood;
+    --tertiory-color:lavenderblush;
+    --navlink-color:blueviolet;
+    --navlink-background-color:pink;
     
 }
 
@@ -50,11 +53,11 @@ body {
 
 .header a {
     padding: 15px;
-    color:var(--navlink--color);
+    color:var(--navlink-color);
     font-style:oblique ;
 }
 .header nav ul li:hover{
-    background-color:pink;
+    background-color:var(--navlink-background-color);
     padding:5px;
 }
         /*HERO-IMAGE SECTION*/
@@ -277,17 +280,17 @@ figcaption{
     
     font-size: 20px;
     padding: 10px;
-    color:var(--navlink--color);
+    color:var(--navlink-color);
     
 }
 .contactme  ul li:hover{
-    background-color:pink;
+    background-color:var(--navlink-background-color);
     padding:5px;
 }
         /* Media Query for various screens and device */
 @media screen and (max-width: 980px){
     .header{
-        background-color:burlywood;
+        background-color:var(--secondary-color);
         justify-content: center;
         margin:0px;
          }
@@ -324,7 +327,7 @@ figcaption{
         
         }
         .contactme{
-            background-color:burlywood;
+            background-color:var(--secondary-color);
         }
         .contactme ul {     
             width: 100%;
@@ -341,7 +344,7 @@ figcaption{
 }
 @media screen and (max-width: 480px) {
     .header{
-        background-color:lavenderblush;
+        background-color:var(--tertiory-color);
         justify-content: center;
         margin:0px;
          }
@@ -389,7 +392,7 @@ figcaption{
         font-size: 18px;
     }
     .contactme{
-        background-color:lavenderblush;
+        background-color:var(--tertiory-color);
     }
     .contactme ul {     
         width: 100%;
