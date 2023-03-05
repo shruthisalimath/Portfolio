@@ -5,6 +5,12 @@
     margin:0px;
     
 }
+:root{
+    --border-color:black;
+    --primary-color:bisque;
+    --navlink--color:blueviolet;
+    
+}
 
 body {
     background-color: white;
@@ -14,7 +20,7 @@ body {
 
 .header {
  padding:20px;
- background-color: gray;
+ background-color:var(--primary-color);
  display:flex;
  flex-wrap: wrap;
  width:100%;
@@ -23,7 +29,7 @@ body {
 
  }
  .header h1{
-    background-color:lightblue;
+    background-color:aquamarine;
     font-size: 35px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     padding:10px;
@@ -41,17 +47,15 @@ body {
 
    
 }
-/*.header nav ul li{
-    display:inline-block;
-    font-size: 20px;
 
-}*/
 .header a {
     padding: 15px;
-    color: green;
+    color:var(--navlink--color);
     font-style:oblique ;
-    
-       
+}
+.header nav ul li:hover{
+    background-color:pink;
+    padding:5px;
 }
         /*HERO-IMAGE SECTION*/
 
@@ -91,7 +95,7 @@ h2{
     /*ABOUT ME SECTION*/
 
 .aboutme {
-    background-color:bisque;
+    background-color:beige;
     padding: 10px;
     display:flex;
     flex-wrap: wrap;
@@ -121,7 +125,7 @@ h2{
     margin: 20px;
     width: 75%;
     border-left:5px solid;
-    border-color: black;
+    border-color: var(--border-color);
     align-items: center;
     padding: 20px;
     font-size: 25px;
@@ -130,7 +134,7 @@ h2{
 
 .work{
    
-    background-color:khaki;
+    background-color:cornsilk;
     padding: 10px;
     display:flex;
     flex-wrap: wrap;
@@ -147,19 +151,29 @@ h2{
     align-content: flex-start;
     width:68%;
    padding:20px;
-    border-color: black;
+    border-color:var(--border-color);
     border-left: 5px solid;
     
     
 }
 
-.work figcaption{
+figcaption{
+    margin-left: 5px;
+  margin-top: -35px;
+    position: absolute;
     font-size: 20px;
     font-style: italic;
-    color:darkmagenta;
+    color:var(--border-color);
     font-weight: bold;
+    background-color: magenta;
+    border:3px solid;
     
 }
+.work figcaption:hover{
+    background-color:red;
+}
+
+
 
 .learner {
     
@@ -206,7 +220,7 @@ h2{
    /* margin-right: 15px;*/
 }
 .Instructor img{
-    height:340px;
+    height:350px;
     width:100%;
     
 }
@@ -219,7 +233,7 @@ h2{
 }
 
 .Bollywood img{
-    height:320px;
+    height:350px;
     width:100%;
     
 }
@@ -228,7 +242,7 @@ h2{
        /*FOOTER:CONTACT-ME Section*/
 .contactme
 {
-    background-color:darkgoldenrod;
+    background-color:var(--primary-color);
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -243,7 +257,7 @@ h2{
     margin-right: 25px;;
     width: 75%;
     border-left:5px solid;
-    border-color: black;
+    border-color:var(--border-color);
     align-items: center;
     padding:15px;
     font-size: 25px;
@@ -259,17 +273,21 @@ h2{
     margin-left: 0px;
    width:100%;
 }
-.contactme li a{
+.contactme  li a{
     
     font-size: 20px;
     padding: 10px;
-    color:blueviolet;
+    color:var(--navlink--color);
     
+}
+.contactme  ul li:hover{
+    background-color:pink;
+    padding:5px;
 }
         /* Media Query for various screens and device */
 @media screen and (max-width: 980px){
     .header{
-        background-color:beige;
+        background-color:burlywood;
         justify-content: center;
         margin:0px;
          }
@@ -281,9 +299,7 @@ h2{
             padding-top: 10px;
             justify-content: center;
         }
-        .header a{
-            color:brown;
-        }  
+         
         .Hero-Image{
             padding:25px;
         }
@@ -293,9 +309,7 @@ h2{
         .title h2{
             font-size: 35px;
         }
-        .aboutme{
-            background-color: darkgray;
-        }
+        
         .aboutme img{
             height:100px;
             
@@ -308,6 +322,9 @@ h2{
             width:100%;
             padding:5px;
         
+        }
+        .contactme{
+            background-color:burlywood;
         }
         .contactme ul {     
             width: 100%;
@@ -324,7 +341,7 @@ h2{
 }
 @media screen and (max-width: 480px) {
     .header{
-        background-color:cornsilk;
+        background-color:lavenderblush;
         justify-content: center;
         margin:0px;
          }
@@ -370,6 +387,9 @@ h2{
     }
     .work figcaption{
         font-size: 18px;
+    }
+    .contactme{
+        background-color:lavenderblush;
     }
     .contactme ul {     
         width: 100%;
