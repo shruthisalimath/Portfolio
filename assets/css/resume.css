@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:white;
+    background-color:lightgray;
     margin:0px;
 
 }
@@ -22,7 +22,7 @@ body {
 
  }
  .header h1{
-    background-color:lightgray;
+    background-color:pink;
     font-size: 35px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     padding:10px;
@@ -38,7 +38,8 @@ body {
     font-size: 25px; 
 }
 
-.header a {
+
+header a {
     padding: 15px;
     color:blueviolet;
     font-style:oblique ;
@@ -53,7 +54,7 @@ body {
    
 }
 .Resume-content{
-
+    background-color:cornsilk;
     display:flex;
     flex-wrap: wrap;
     justify-content:center;
@@ -74,7 +75,7 @@ body {
 
 .Details{
     padding:20px;
-    background-color:lightgray;
+    
     height:auto;
     width: 100%;
     display:flex;
@@ -88,7 +89,8 @@ h3{
     color:brown;
 }
 .Educate, .Learn{
-    padding-left: 40px;;
+    padding-left: 50px;
+    margin-top: 15px;
 }
 .Details li{
     font-size: 16px;

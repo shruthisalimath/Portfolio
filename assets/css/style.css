@@ -29,6 +29,7 @@ body {
  width:100%;
  justify-content: space-between;
  margin:auto;
+ 
 
  }
  .header h1{
@@ -190,6 +191,7 @@ figcaption{
     display: flex;
 }
 
+
 .Accessibility{
     height:100%;
     /*border: 2px solid;*/
@@ -242,6 +244,11 @@ figcaption{
 }
 
 
+.work img:hover{
+    opacity: 75%;
+}
+
+
        /*FOOTER:CONTACT-ME Section*/
 .contactme
 {
@@ -283,9 +290,9 @@ figcaption{
     color:var(--navlink-color);
     
 }
-.contactme  ul li:hover{
+.contact-content  ul li:hover{
     background-color:var(--navlink-background-color);
-    padding:5px;
+    
 }
         /* Media Query for various screens and device */
 @media screen and (max-width: 980px){
