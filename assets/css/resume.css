@@ -1,0 +1,96 @@
+*{ 
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    
+}
+
+body {
+    background-color:white;
+    margin:0px;
+
+}
+
+.header {
+ padding:10px;
+ background-color:bisque;
+ display:flex;
+ flex-wrap: wrap;
+ width:100%;
+ justify-content: space-between;
+ margin:auto;
+
+ }
+ .header h1{
+    background-color:lightgray;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding:10px;
+    font-style: italic;
+    list-style: none;
+ }
+.header nav ul{ 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px; 
+}
+
+.header a {
+    padding: 15px;
+    color:blueviolet;
+    font-style:oblique ;
+}
+.header nav ul li:hover{
+    background-color:pink;
+    padding:5px;
+}
+
+ img{
+    height:200px; 
+   
+}
+.Resume-content{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.info {
+    
+    padding-left: 50px;
+   
+}
+.title {
+    
+    padding-left: 30px;
+}
+
+
+.Details{
+    padding:20px;
+    background-color:lightgray;
+    height:auto;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+h2{
+    color:crimson;
+}
+h3{
+    font-size: 40px;
+    color:brown;
+}
+.Educate, .Learn{
+    padding-left: 40px;;
+}
+.Details li{
+    font-size: 16px;
+    word-wrap: normal;
+}
