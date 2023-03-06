@@ -52,3 +52,4 @@ With given particular screen size the page or view resizes along with the backgr
 12. Created another html and css file with sample resume. when clicked on resume on header it links to sample resume page.
 13.Finally deployed application.
  
+ 
