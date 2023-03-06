@@ -34,7 +34,7 @@ The following animation shows the web application's appearance and functionality
 
 ![portfolio demo](./assets/images/02-advanced-css-homework-demo.gif)
 
-# Created Shruthi-Portfolio
+# Discription of the Challenge: shruthi-portfolio
 Below is the procdure I created my portfolio:
 1. Initially I created an HTML document (index.html) with basic structure.
 2. Then I created CSS styling sheet to it.
@@ -52,4 +52,18 @@ With given particular screen size the page or view resizes along with the backgr
 12. Created another html and css file with sample resume. when clicked on resume on header it links to sample resume page.
 13.Finally deployed application.
  
- 
+## Screenshot of shruthi-portfolio:
+![Shruthi-portfolio](./assets/images/IMG_9204.JPG)
+
+## URL
+1.The URL of the deployed application:
+
+https://shruthisalimath.github.io/Shruthi-Portfolio/index.html
+
+2.The URL of the GitHub repository:
+
+https://github.com/shruthisalimath/Shruthi-Portfolio
+
+
+
+
