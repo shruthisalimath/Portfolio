@@ -65,5 +65,6 @@ https://shruthisalimath.github.io/Shruthi-Portfolio/index.html
 https://github.com/shruthisalimath/Shruthi-Portfolio
 
 
+![portfolio demo](./assets/images/Screen-Shot_with_project.png)
 
 
