@@ -65,6 +65,6 @@ https://shruthisalimath.github.io/Shruthi-Portfolio/index.html
 https://github.com/shruthisalimath/Shruthi-Portfolio
 
 ## Screenshot with project added: 
-![Shruthi-portfolio](./assets/images/Screen-Shot_with_project.png)
+![portfolio demo](./assets/images/Screen-Shot_with_project.png)
 
 
