@@ -177,7 +177,15 @@ figcaption{
     background-color:red;
 }
 
+.careconnect {
+    width: 100%;
+}
 
+.careconnect img{
+    width:100%;
+    height:300px;
+    display: flex;
+}
 
 .learner {
     
